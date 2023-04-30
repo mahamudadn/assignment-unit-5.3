@@ -73,9 +73,28 @@ console.log('***** Music Collection *****')
   function backWard(collection) {
     console.log(`There are ${collection.length}  reversed items in this collection:`);
     for (let album of collection) {
+
     console.log(`published in: ${album.yearPublished} by: ${album.artist}, name: ${album.title}`);
     }
 }
 
 backWard(collection);
 
+// Created findByArtist function.
+// also created an empty array with the name result.
+//  made a for loop to loop over the collection array.
+
+    function findByArtist(artist) {
+        let  result = []
+
+        for( let i =0; i < collection.length; i++) {
+
+            if(collection[i].artist === artist) {
+
+                result.push(collection[i])
+            }
+        }
+        
+        return result; 
+
+        }
