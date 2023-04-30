@@ -102,3 +102,7 @@ backWard(collection);
         // Tested artist is in the collection.
 
         console.log(findByArtist("enrique"))
+
+        // tested artist not in the collection.
+        
+        console.log(findByArtist("rihana"))
