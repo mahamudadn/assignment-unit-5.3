@@ -104,5 +104,12 @@ backWard(collection);
         console.log(findByArtist("enrique"))
 
         // tested artist not in the collection.
-        
+
         console.log(findByArtist("rihana"))
+
+        // tested artsit with multiple matches.
+
+        console.log(findByArtist("samatar"))
+
+
+
