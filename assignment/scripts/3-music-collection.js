@@ -62,4 +62,9 @@ console.log('***** Music Collection *****')
     }
 }
 
+// tested out the showCollection.
+// to check if its loging out the same with the format.
+
+    showCollection(collection);
+
 
