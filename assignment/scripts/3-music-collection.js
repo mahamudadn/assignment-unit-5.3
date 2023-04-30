@@ -49,3 +49,17 @@ console.log('***** Music Collection *****')
 
      console.log(collection);
 
+   // created showcolection function.
+  // looped over the array as per the formate.
+  // loged out title, artist ,and yearPublished format as instructed.
+
+ function showCollection(collection) {
+
+    console.log(`There are ${collection.length} items in this collection:`);
+    for (let album of collection) {
+
+    console.log(`${album.title} by ${album.artist}, published in ${album.yearPublished}`);
+    }
+}
+
+
