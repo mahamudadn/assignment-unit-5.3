@@ -44,8 +44,8 @@ console.log('***** Music Collection *****')
 
         console.log(' This is my sixth album ', album6)
 
-        // testing addToCollection is working corectly.
-        // so called out collection array to test albums are added.
+    // testing addToCollection is working corectly.
+   // so called out collection array to test albums are
 
-        console.log(collection);
+     console.log(collection);
 
