@@ -94,7 +94,11 @@ backWard(collection);
                 result.push(collection[i])
             }
         }
-        
+
         return result; 
 
         }
+
+        // Tested artist is in the collection.
+
+        console.log(findByArtist("enrique"))
