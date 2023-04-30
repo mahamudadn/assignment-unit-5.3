@@ -47,7 +47,7 @@ console.log('***** Music Collection *****')
     // testing addToCollection is working corectly.
    // so called out collection array to test albums are
 
-     console.log(collection);
+     console.log('this is my album collection' ,collection);
 
    // created showcolection function.
   // looped over the array as per the formate.
