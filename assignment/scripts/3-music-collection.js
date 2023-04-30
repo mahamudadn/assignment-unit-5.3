@@ -1,6 +1,6 @@
 console.log('***** Music Collection *****')
 
-// music collection
+// empty collection array 
 
     let collection = [];
 
@@ -36,7 +36,7 @@ console.log('***** Music Collection *****')
 
         console.log(' This is my album four', album4)
 
-        let album5 = addToCollection("escape", "enrique", "2001")
+        let album5 = addToCollection("someone", "enrique", "2009")
 
         console.log(' This is my  fitth album ', album5)
 
@@ -77,6 +77,7 @@ console.log('***** Music Collection *****')
     console.log(`published in: ${album.yearPublished} by: ${album.artist}, name: ${album.title}`);
     }
 }
+// tested out backWard function works correctly.
 
 backWard(collection);
 
@@ -110,6 +111,3 @@ backWard(collection);
         // tested artsit with multiple matches.
 
         console.log(findByArtist("samatar"))
-
-
-
