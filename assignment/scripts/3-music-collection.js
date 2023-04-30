@@ -62,9 +62,20 @@ console.log('***** Music Collection *****')
     }
 }
 
+
 // tested out the showCollection.
 // to check if its loging out the same with the format.
 
     showCollection(collection);
 
+// information in a reversed format (yearpulished, artist, title).
+
+  function backWard(collection) {
+    console.log(`There are ${collection.length}  reversed items in this collection:`);
+    for (let album of collection) {
+    console.log(`published in: ${album.yearPublished} by: ${album.artist}, name: ${album.title}`);
+    }
+}
+
+backWard(collection);
 
